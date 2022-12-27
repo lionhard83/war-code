@@ -1,0 +1,19 @@
+{
+  "name": "codewar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/solution2.js",
+    "test": "tsc && mocha ./build/tests/test3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/jest": "^29.2.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7"
+  }
+}
