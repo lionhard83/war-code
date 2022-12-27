@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "start": "tsc && node ./build/solution2.js",
     "test": "tsc && mocha ./build/tests/test3.js"
   },
